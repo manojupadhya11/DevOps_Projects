@@ -1,0 +1,6 @@
+    1  yum install update
+    2  sudo yum install -y https://dl.grafana.com/enterprise/release/grafana-enterprise-11.3.0-1.x86_64.rpm
+    3  sudo /bin/systemctl start grafana-server
+    4  history
+    5  systemctl status grafana-server
+    6  history
